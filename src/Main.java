@@ -1,15 +1,17 @@
 public class Main {
     public static void main(String[] args) {
 
-        var boxerOne = 78.2;
-        System.out.println(boxerOne);
-        var boxerTwo = 82.7;
-        System.out.println(boxerTwo);
+        var hourAll = 640;
+        var sotrOneHour = 8;
+        var sotrAll = hourAll / sotrOneHour;
+        System.out.println("Всего работников в компании – " + sotrAll + " человек.");
 
-        var boxerRazn = boxerTwo - boxerOne;
-        System.out.println(boxerRazn);
+        sotrAll =  sotrAll + 94;
+        var hourAllNew = sotrAll * 8;
+        System.out.println("Если в компании работает " + sotrAll + " человека, " +
+                "то всего " + hourAllNew + " часов работы " +
+                "может быть поделено между сотрудниками.");
 
-        var boxerOst = boxerTwo % boxerOne;
-        System.out.println(boxerOst);
+
     }
 }
