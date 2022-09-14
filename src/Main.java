@@ -6,16 +6,11 @@ public class Main {
         var sotrAll = hourAll / sotrOneHour;
         System.out.println("Всего работников в компании – " + sotrAll + " человек.");
 
-        sotrAll =  sotrAll + 94;
+        sotrAll = sotrAll + 94;
         var hourAllNew = sotrAll * 8;
         System.out.println("Если в компании работает " + sotrAll + " человека, " +
                 "то всего " + hourAllNew + " часов работы " +
                 "может быть поделено между сотрудниками.");
 
-        var boxerRazn = boxerTwo - boxerOne;
-        System.out.println(boxerRazn);
-
-        var boxerOst = boxerTwo % boxerOne;
-        System.out.println(boxerOst);
     }
 }
