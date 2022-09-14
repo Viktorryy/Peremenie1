@@ -5,10 +5,11 @@ public class Main {
         System.out.println(boxerOne);
         var boxerTwo = 82.7;
         System.out.println(boxerTwo);
-        var boxerSum = boxerOne + boxerTwo;
-        System.out.println(boxerSum);
+
         var boxerRazn = boxerTwo - boxerOne;
         System.out.println(boxerRazn);
 
+        var boxerOst = boxerTwo % boxerOne;
+        System.out.println(boxerOst);
     }
 }
